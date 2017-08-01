@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="/style.css" />
+		<title>SoundBobMorris</title>
+    </head>
+	
+	<body>
+		<script>
+			function PlaySound(son) {
+			var path = "sons/"
+			var snd = new Audio(path + son + ".mp3");
+			snd.play();
+			}
+			function StopSound() {
+			snd.stop();
+			}
+		</script>
+		
+		<section>
+			<h1>La soundbox de Bob Morris</h1>
+			<h2>Version Web !</h2>
+		</section>
+		<section>
+			<h3>Soundboard</h3>
+			<!--<button onclick="StopSound()">Arreter tout les sons</button>
+			<br />-->
+			<button onclick="PlaySound('wtf')">...WTF...</button>
+			<button onclick="PlaySound('remerciements')">Féliciter</button>
+			<button onclick="PlaySound('installer alim advance')">Installer alim</button>
+			<button onclick="PlaySound('nuire a ad')">Détourner</button>
+			<button onclick="PlaySound('oups')">Oups</button>
+			<button onclick="PlaySound('advance ! ')">Advance !</button>
+			<button onclick="PlaySound('cpu1coeur')">Un coeur</button>
+			<br /> <!--Ligne n°2-->
+			<button onclick="PlaySound('plus le temps bonne videos')">Plus le temps</button>
+			<button onclick="PlaySound('qualite cochonnerie')">Qualité > cochonnerie</button>
+			<button onclick="PlaySound('sures et fiables')">Sures et fiables</button>
+			<button onclick="PlaySound('boooooooonjourmessieursdames')">Boonnjjoourr</button>
+			<button onclick="PlaySound('dapresmoi')">D'apres moi</button>
+			<button onclick="PlaySound('usa')">USA USA !!</button>
+			<br /> <!--Ligne n°3-->
+			<button onclick="PlaySound('nuir ad mondial')">Nuire à Advance</button>
+			<button onclick="PlaySound('ouais')">Qui crie ouais</button>
+			<button onclick="PlaySound('systeme de merde')">Systeme de merde</button>
+			<button onclick="PlaySound('tutoriel')">Tapis tutoriel</button>
+			<button onclick="PlaySound('videordure')">Vide ordure</button>
+			<button onclick="PlaySound('viesouslagauche')">Dur la vie</button>
+			<br /> <!--Ligne n°4-->
+			<button onclick="PlaySound('endommager electrocuter')">Suite à une erreur</button>
+			<button onclick="PlaySound('bonjourmessieursdames')">Bonjour messieurs dames</button>
+			<button onclick="PlaySound('bracelet antistatique')">Bracelet antistatique</button>
+			<button onclick="PlaySound('commisariat')">Commisariat de Rouen</button>
+			<button onclick="PlaySound('hehehe oui')">Hèhèhè</button>
+			<br /> <!--Ligne n°5-->
+			<button onclick="PlaySound('diffamatoire a volonte')">Diffamatoire à volonté</button>
+			<button onclick="PlaySound('climat malsain')">Climat malsain</button>
+			<button onclick="PlaySound('bonsoir messieurs dames')">Bonsoir</button>
+			<button onclick="PlaySound('adiance est formidable')">Adiance est formidable</button>
+			<button onclick="PlaySound('concu pour durer')">Conçu pour durer</button>
+			<p>Fait par <a href="http://twitter.com/turion64_guy_fr">Turion 64 Guy</a></p>
+			<h5>Version 1.0</h5>
+		</section>
+	</body>
+</html>
