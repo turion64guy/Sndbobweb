@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'arcade';
+    src: url('fonts/ka1.ttf');
+}
+
+.titre {
+	font-family: arcade;
+}
+
+* {
+	font-family: arial, sans-serif;
+}
+
+html {
+    font-family: arial, sans-serif;
+    background : url(images/circuit.jpg) 50% 50% fixed repeat;
+    background-color: black;
+    font-size: 16px;
+	height: 100%;
+}
+
+body
+{
+	margin:0px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: arial, sans-serif;
+	margin:0px;
+	text-align:center;
+}
+
+h2 {
+    text-align: center;
+    font-family: arial, sans-serif;
+	margin:0px;
+}
+
+section {
+    font-family: arial, sans-serif;
+    padding: 25px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 70%;
+    text-align: justify;
+    background-color: rgba(0,0,0,0.9);
+	color:white;
+	border-color:darkred;
+	border-width:5px;
+	border-style:groove;
+	box-sizing:border-box;
+	box-shadow: 5px 5px 5px #000;
+	transition: border-color 0.5s;
+}
+
+section:hover {
+	border-color:yellowgreen;
+	transition: border-color 0.5s;
+}
+
+p {
+    font-family: arial, sans-serif;
+    font-size: 16px;
+	margin-top:25px;
+	margin-bottom:25px;
+	padding:0px;
+}
+
+p:last-child {
+    margin-bottom:0px;
+}
+
+p:first-child {
+    margin-top:0px;
+}
+
+a {
+    color:red;
+	transition: color 0.5s;
+}
+
+a:hover {
+    color:yellow;
+	transition: color 0.5s;
+	cursor:pointer;
+}
+
+code {
+    font-family: modern, monospace, sans-serif;
+    font-size: 16px;
+    text-align: left;
+	white-space: pre;
+	display: flex;
+	margin:0px;
+	padding:9px 50px 25px 65px;
+	background-color:rgba(33,33,33,0.8);
+	box-sizing: border-box;
+	line-height: 20px;
+	overflow-x:auto;
+}
+
+.codeLines {
+	font-family: modern, monospace, sans-serif;
+	color:grey;
+	display: inline-flex;
+	flex-direction:column;
+	white-space: initial;
+	position:absolute;
+	box-sizing: border-box;
+	line-height: 20px;
+	margin-top: calc(1em + 3px);
+}
+
+.codeLines > span {
+	font-family: modern, monospace, sans-serif;
+	color:grey;
+	font-size: 16px;
+	text-align: right;
+	margin-left:-35px;
+	padding-right:1em;
+	box-sizing: border-box;
+}
+
+.codeLines > span:after {
+	content:"|";
+	color:green;
+	font-size: 16px;
+}
+
+@media screen and (max-width:450px) {
+	body {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	
+	section {
+		width:100%;
+	}
+}
