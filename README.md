@@ -1,6 +1,9 @@
 # La soundbox de Bob Morris version Web !
 La version web de ma soundboard avec les meilleures phrases de Bob Morris
 
+*Version actuelle : 1.1*
+Merci à Hunter Gunter (https://www.youtube.com/channel/UC00_SCiCfbRnXgtZoPFTzlw) pour m'avoir fourni 15 nouveaux sons que j'ai ajoutés à la 1.1
+
 **Vous pouvez aller tester la soundbox sur mon site : http://turion64.cf/soundbox/**
 
 **COMMENT METTRE LA SOUNDBOX SUR SON PROPRE SERVEUR**
